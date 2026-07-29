@@ -1,22 +1,78 @@
 aid: jungla
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jungla.png
 name: Jungla
-description: Jungla is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jungla, Inc. was a San Francisco precision-medicine informatics startup
+  founded in 2016 by Alexander Colavin and Carlos Araya. Backed by Andreessen
+  Horowitz (a16z) and IndieBio, it built a cloud-based Functional Modeling
+  Platform (FMP), also described as a Molecular Evidence Platform, that combined
+  functional genomics, computational biophysics, cellular engineering, and
+  machine learning to produce auditable predictive models for clinical genetic
+  and genomic variant interpretation. Jungla emerged from stealth in 2018 and
+  was acquired by Invitae Corporation in July 2019 (approximately $59M), where
+  its technology augmented Invitae's Sherloc variant-classification approach.
+  The company is now defunct; its original developer surface (jungla.io) is
+  offline and no public API, documentation, or SDKs survive. This profile is a
+  historical record surfaced from the a16z portfolio; it carries no live
+  developer artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/jungla/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- IndieBio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Invitae Corporation in July 2019; company wound down
+x-acquired-by: Invitae Corporation
+x-acquired-date: '2019-07-16'
+x-acquired-amount-usd: 59000000
+x-founded: '2016'
+x-founders:
+- Alexander Colavin
+- Carlos Araya
+x-industry: precision-medicine
+x-archive-url: https://jungla.bio/
+x-enrichment-note: >-
+  Enrichment pipeline run 2026-07-19 found no live developer surface. Original
+  domain jungla.io is dead; jungla.bio is a static memorial page ("Jungla Inc.
+  (2016-2019)"); jungla.com is an unrelated outdoor-kitchen product. No OpenAPI,
+  docs portal, SDKs, packages, MCP server, or well-known documents exist to
+  harvest. Sources: GenomeWeb (stealth emergence), Crunchbase, PitchBook,
+  Invitae/Jungla acquisition press releases (PRNewswire, SEC 8-K).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Precision Medicine
+- Genomics
+- Bioinformatics
+- Healthcare
+- Machine Learning
+- Clinical Diagnostics
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
