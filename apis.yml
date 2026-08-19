@@ -52,7 +52,7 @@ x-enrichment-note: >-
   docs portal, SDKs, packages, MCP server, or well-known documents exist to
   harvest. Sources: GenomeWeb (stealth emergence), Crunchbase, PitchBook,
   Invitae/Jungla acquisition press releases (PRNewswire, SEC 8-K).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
